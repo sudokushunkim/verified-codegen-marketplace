@@ -1,0 +1,15 @@
+{
+  "name": "verified-codegen-marketplace",
+  "owner": { "name": "Seunghun Kim", "email": "sudokush@gmail.com" },
+  "metadata": {
+    "description": "Marketplace hosting the Verified Codegen multi-agent pipeline plugin.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "verified-codegen",
+      "source": "./plugins/verified-codegen",
+      "description": "Language-neutral multi-agent pipeline that turns AI-generated code into verified-before-merge code: 10 role-separated subagents, a Destroyer that hunts failure cases, a scenario/test quality gate, and git-safety hooks."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "verified-codegen",
+  "version": "0.1.0",
+  "description": "Turn AI-generated code into verified-before-merge code. A language-neutral pipeline of 10 role-separated subagents (planner, architect, devops, coder, scenarist, destroyer, fixer, tester, reviewer, author) with a Destroyer that intentionally hunts failure cases, a scenario+test quality gate, a bounded feedback loop, and git-safety hooks. Coder and Scenarist run in parallel.",
+  "author": { "name": "Seunghun Kim", "email": "sudokush@gmail.com" },
+  "keywords": ["ai", "codegen", "multi-agent", "verification", "testing", "quality-gate", "subagents", "pipeline"],
+  "license": "MIT"
+}
